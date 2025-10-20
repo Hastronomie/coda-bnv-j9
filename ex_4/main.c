@@ -8,7 +8,7 @@ int main()
 {
     character *perso = malloc(sizeof(*perso));
     perso->name = malloc(str_len("Paul") * sizeof(char));
-
+    //si je veux utiliser la fonction qu'on a fait, je vire la ligne du dessus 
     perso->name = strcpy(perso->name, "Paul");
     perso->strength = 100;
     perso->intelligence = 101;
